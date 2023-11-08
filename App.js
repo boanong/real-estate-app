@@ -5,9 +5,10 @@ import SplashScreen from './core/components/organisms/SplashScreen';
 import FirstOnboarding from './core/components/organisms/FirstOnboarding';
 import SecondOnboarding from './core/components/organisms/SecondOnboarding';
 import ThirdOnboarding from './core/components/organisms/ThirdOnboarding';
-import Signin from './core/components/authentication/Signin';
+import Signin from './core/components/authentication/SignUp';
 import { Layout } from 'react-feather';
 import LayoutSignup from './core/components/layout/LayoutSignup';
+import SignIn from './core/components/authentication/SignIn';
 
 const Stack = createStackNavigator();
 
@@ -24,6 +25,7 @@ const App = () => {
         <Stack.Screen name="ThirdOnboarding" component={ThirdOnboarding} />
         <Stack.Screen name="Signin" component={Signin} />
         <Stack.Screen name='LayoutSigin' component={LayoutSignup} />
+        <Stack.Screen name="SignIn" component={SignIn} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, View, StyleSheet } from 'react-native';
 import LayoutSignup from '../layout/LayoutSignup';
 
-const Signin = () => {
+const SignIn = () => {
   return (
     <>
       <View style={styles.container}>
@@ -35,4 +35,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Signin;
+export default SignIn;

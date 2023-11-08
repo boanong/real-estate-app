@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, TextInput, TouchableOpacity, Text } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import SignIn from '../authentication/SignIn';
 
 const LayoutSignup = () => {
   return (
@@ -10,24 +11,39 @@ const LayoutSignup = () => {
       <TextInput style={styles.input} placeholder="Name" />
       <TextInput style={styles.input} placeholder="Email" />
       <TextInput style={styles.input} placeholder="Password" secureTextEntry={true} />
+
+
+
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', marginBottom: 15, }}>
+        <Text style={{ fontSize: 16 }}>
+          Already have an account?
+          <TouchableOpacity>
+            <Text style={{ color: 'rgba(40, 107, 229, 1)', textDecorationLine: 'underline' }}>
+              Sign in
+            </Text>
+          </TouchableOpacity>
+        </Text>
+      </View>
+
+
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => navigation.navigate('SecondOnboarding')}
+      >
+        <Text style={styles.buttonText}>Get Started</Text>
+      </TouchableOpacity>
+
+
+
       <TouchableOpacity style={styles.createBtn}>
         <Text style={styles.createBtnText}>Create Account</Text>
       </TouchableOpacity>
       <View style={styles.divider}>
         <View style={styles.dividerLine} />
-        <Text style={styles.dividerText}>or login with</Text>
+        <Text style={styles.dividerText}>or sign up with</Text>
         <View style={styles.dividerLine} />
       </View>
 
-
-      <View style={styles.divider}>
-  <View style={styles.dividerLine} />
-  <Text style={styles.dividerText}>Already have an account?</Text>
-  <TouchableOpacity style={styles.signInBtn}>
-    <Text style={styles.signInBtnText}>Sign in</Text>
-  </TouchableOpacity>
-  <View style={styles.dividerLine} />
-</View>
 
       <View style={styles.socialBtnContainer}>
         <TouchableOpacity style={styles.socialButton}>
@@ -72,17 +88,8 @@ const styles = StyleSheet.create({
     paddingLeft: 15,
   },
 
-  signInBtn: {
-    paddingHorizontal: 10,
-    paddingVertical: 5,
-  },
-  signInBtnText: {
-    color: 'blue',
-    textDecorationLine: 'underline',
-  },
 
 
-  
   createBtn: {
     backgroundColor: 'rgba(40, 107, 229, 1)',
     height: 50,
