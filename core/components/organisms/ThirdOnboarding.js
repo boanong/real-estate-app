@@ -19,7 +19,7 @@ const ThirdOnboarding = () => {
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Register')}
+        onPress={() => navigation.navigate('Signin')}
       >
         <Text style={styles.buttonText}>Get Started</Text>
       </TouchableOpacity>
