@@ -1,15 +1,19 @@
 import React from 'react';
 import { Image, View, StyleSheet } from 'react-native';
-import LayoutSignup from '../layout/LayoutSignup';
+import LayoutLogin from '../layout/LayoutLogin';
+import SuccessMessage from '../molecules/SuccessMessage';
 
-const SignIn = () => {
+
+
+const SignInPage = () => {
   return (
     <>
       <View style={styles.container}>
         <Image source={require('./../../assets/houseCrossection.png')} style={styles.backgroundImage} />
         <Image source={require('./../../assets/logo.png')} style={styles.logo} />
       </View>
-      <LayoutSignup />
+      <LayoutLogin />
+      <SuccessMessage />
     </>
   );
 };
@@ -35,4 +39,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SignIn;
+export default SignInPage;

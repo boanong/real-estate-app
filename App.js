@@ -8,7 +8,9 @@ import ThirdOnboarding from './core/components/organisms/ThirdOnboarding';
 import Signin from './core/components/authentication/SignUp';
 import { Layout } from 'react-feather';
 import LayoutSignup from './core/components/layout/LayoutSignup';
-import SignIn from './core/components/authentication/SignIn';
+import SignInPage from './core/components/authentication/SignInPage';
+import LayoutLogin from './core/components/layout/LayoutLogin';
+
 
 const Stack = createStackNavigator();
 
@@ -25,7 +27,8 @@ const App = () => {
         <Stack.Screen name="ThirdOnboarding" component={ThirdOnboarding} />
         <Stack.Screen name="Signin" component={Signin} />
         <Stack.Screen name='LayoutSigin' component={LayoutSignup} />
-        <Stack.Screen name="SignIn" component={SignIn} />
+        <Stack.Screen name="SignInPage" component={SignInPage} />
+        <Stack.Screen name="LayoutLogin" component={LayoutLogin} />
       </Stack.Navigator>
     </NavigationContainer>
   );

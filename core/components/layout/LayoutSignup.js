@@ -1,9 +1,21 @@
 import React from 'react';
 import { View, StyleSheet, TextInput, TouchableOpacity, Text } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import SignIn from '../authentication/SignIn';
+import SignInPage from '../authentication/SignInPage';
+import { useNavigation } from '@react-navigation/native';
+
+
+ // initialize the navigation hook
+
 
 const LayoutSignup = () => {
+  const navigation = useNavigation(); 
+  
+  const handleSignIn = () => {
+    navigation.navigate('SignInPage'); 
+  }
+  
+  
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Create Account</Text>
@@ -13,25 +25,16 @@ const LayoutSignup = () => {
       <TextInput style={styles.input} placeholder="Password" secureTextEntry={true} />
 
 
-
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', marginBottom: 15, }}>
         <Text style={{ fontSize: 16 }}>
           Already have an account?
-          <TouchableOpacity>
+          <TouchableOpacity onPress={handleSignIn}>
             <Text style={{ color: 'rgba(40, 107, 229, 1)', textDecorationLine: 'underline' }}>
               Sign in
             </Text>
           </TouchableOpacity>
         </Text>
       </View>
-
-
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate('SecondOnboarding')}
-      >
-        <Text style={styles.buttonText}>Get Started</Text>
-      </TouchableOpacity>
 
 
 
