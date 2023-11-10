@@ -2,13 +2,18 @@ import React from 'react';
 import { Navigation } from 'react-feather';
 import { View, StyleSheet, Text, TouchableOpacity, Image } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import { useNavigation } from '@react-navigation/core';
+
 
 
 
 const SuccessMessage = () => {
 
+    const navigation = useNavigation();
+
+
     const handleCreateAccount = () => {
-        Navigation.navigate ('HomePage');
+        navigation.navigate ('HomePage');
     }
 
 
