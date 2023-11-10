@@ -1,6 +1,8 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet, TextInput } from 'react-native';
 import HorizontalContainer from '../molecules/HorizontalContainer';
+import HouseCards from '../molecules/HouseCards';
+import FooterSection from './FooterSection';
 
 const handleSearch = (searchQuery) => {
     // Handle the search query here
@@ -26,6 +28,8 @@ const HomePage = () => {
                 </TouchableOpacity>
             </View>
             <HorizontalContainer />
+            <HouseCards />
+            <FooterSection />
         </>
 
 
@@ -34,7 +38,7 @@ const HomePage = () => {
 
 const styles = StyleSheet.create({
     container: {
-        height: 200,
+        height: 150,
         backgroundColor: 'rgba(64, 123, 255, 1)',
         padding: 10,
         flexDirection: 'row',
@@ -47,8 +51,8 @@ const styles = StyleSheet.create({
         right: 10,
     },
     profileImage: {
-        width: 50,
-        height: 50,
+        width: 40,
+        height: 40,
         borderRadius: 25,
     },
     searchContainer: {
