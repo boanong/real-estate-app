@@ -8,14 +8,18 @@ import { useNavigation } from '@react-navigation/native';
  // initialize the navigation hook
 
 
-const LayoutSignup = () => {
-  const navigation = useNavigation(); 
-  
+ const LayoutSignup = () => {
+  const navigation = useNavigation();
+
+  const handleCreateAccount = () => {
+    // Navigate to the SuccessMessage page when the button is pressed
+    navigation.navigate('SuccessMessage');
+  };
+
   const handleSignIn = () => {
-    navigation.navigate('SignInPage'); 
-  }
-  
-  
+    navigation.navigate('SignInPage');
+  };
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Create Account</Text>
@@ -24,29 +28,24 @@ const LayoutSignup = () => {
       <TextInput style={styles.input} placeholder="Email" />
       <TextInput style={styles.input} placeholder="Password" secureTextEntry={true} />
 
-
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', marginBottom: 15, }}>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', marginBottom: 15 }}>
         <Text style={{ fontSize: 16 }}>
           Already have an account?
           <TouchableOpacity onPress={handleSignIn}>
-            <Text style={{ color: 'rgba(40, 107, 229, 1)', textDecorationLine: 'underline' }}>
-              Sign in
-            </Text>
+            <Text style={{ color: 'rgba(40, 107, 229, 1)', textDecorationLine: 'underline' }}>Sign in</Text>
           </TouchableOpacity>
         </Text>
       </View>
 
-
-
-      <TouchableOpacity style={styles.createBtn}>
+      <TouchableOpacity style={styles.createBtn} onPress={handleCreateAccount}>
         <Text style={styles.createBtnText}>Create Account</Text>
       </TouchableOpacity>
+
       <View style={styles.divider}>
         <View style={styles.dividerLine} />
         <Text style={styles.dividerText}>or sign up with</Text>
         <View style={styles.dividerLine} />
       </View>
-
 
       <View style={styles.socialBtnContainer}>
         <TouchableOpacity style={styles.socialButton}>

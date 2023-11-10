@@ -10,6 +10,7 @@ import { Layout } from 'react-feather';
 import LayoutSignup from './core/components/layout/LayoutSignup';
 import SignInPage from './core/components/authentication/SignInPage';
 import LayoutLogin from './core/components/layout/LayoutLogin';
+import SuccessMessage from './core/components/molecules/SuccessMessage';
 
 
 const Stack = createStackNavigator();
@@ -29,6 +30,9 @@ const App = () => {
         <Stack.Screen name='LayoutSigin' component={LayoutSignup} />
         <Stack.Screen name="SignInPage" component={SignInPage} />
         <Stack.Screen name="LayoutLogin" component={LayoutLogin} />
+        <Stack.Screen name='SuccessMessage' component={SuccessMessage} /> 
+        <Stack.Screen name="HomePage" component={HomePage} />
+      
       </Stack.Navigator>
     </NavigationContainer>
   );

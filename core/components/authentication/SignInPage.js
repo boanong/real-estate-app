@@ -13,7 +13,6 @@ const SignInPage = () => {
         <Image source={require('./../../assets/logo.png')} style={styles.logo} />
       </View>
       <LayoutLogin />
-      <SuccessMessage />
     </>
   );
 };

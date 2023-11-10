@@ -1,9 +1,17 @@
 import React from 'react';
+import { Navigation } from 'react-feather';
 import { View, StyleSheet, Text, TouchableOpacity, Image } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 
+
 const SuccessMessage = () => {
+
+    const handleCreateAccount = () => {
+        Navigation.navigate ('HomePage');
+    }
+
+
   return (
     <View style={styles.card}>
       <View style={styles.circle}>
@@ -14,7 +22,8 @@ const SuccessMessage = () => {
         Your account has been successfully created. Click on Continue below to
         move to proceed.
       </Text>
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button}
+      onPress={handleCreateAccount}>
         <Text style={styles.buttonText}>Continue</Text>
       </TouchableOpacity>
     </View>
