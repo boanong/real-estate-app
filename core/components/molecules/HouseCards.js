@@ -5,7 +5,7 @@ const HouseCards = () => {
   return (
     <View style={styles.cardContainer}>
       <View style={styles.card}>
-        <Image source={{ uri: 'https://via.placeholder.com/300' }} style={styles.image} />
+        <Image source={{ uri: 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
           <Text>$2000</Text>
           <View style={styles.rating}>
@@ -18,7 +18,7 @@ const HouseCards = () => {
 
 
       <View style={styles.card}>
-        <Image source={{ uri: 'https://via.placeholder.com/300' }} style={styles.image} />
+        <Image source={{ uri: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
           <Text>$2000</Text>
           <View style={styles.rating}>
@@ -29,7 +29,7 @@ const HouseCards = () => {
         </View>
       </View>
       <View style={styles.card}>
-        <Image source={{ uri: 'https://via.placeholder.com/300' }} style={styles.image} />
+        <Image source={{ uri: 'https://images.pexels.com/photos/53610/large-home-residential-house-architecture-53610.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
           <Text>$2000</Text>
           <View style={styles.rating}>
@@ -40,7 +40,7 @@ const HouseCards = () => {
         </View>
       </View>
       <View style={styles.card}>
-        <Image source={{ uri: 'https://via.placeholder.com/300' }} style={styles.image} />
+        <Image source={{ uri: 'https://images.pexels.com/photos/1436190/pexels-photo-1436190.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
           <Text>$2000</Text>
           <View style={styles.rating}>
@@ -51,7 +51,7 @@ const HouseCards = () => {
         </View>
       </View>
       <View style={styles.card}>
-        <Image source={{ uri: 'https://via.placeholder.com/300' }} style={styles.image} />
+        <Image source={{ uri: 'https://images.pexels.com/photos/7031406/pexels-photo-7031406.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
           <Text>$2000</Text>
           <View style={styles.rating}>
@@ -62,7 +62,7 @@ const HouseCards = () => {
         </View>
       </View>
       <View style={styles.card}>
-        <Image source={{ uri: 'https://via.placeholder.com/300' }} style={styles.image} />
+        <Image source={{ uri: 'https://images.pexels.com/photos/1895031/pexels-photo-1895031.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
           <Text>$2000</Text>
           <View style={styles.rating}>
