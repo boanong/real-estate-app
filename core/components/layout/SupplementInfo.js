@@ -39,8 +39,6 @@ const SupplementInfo = () => {
 const styles = StyleSheet.create({
   container: {
     paddingVertical: 10,
-    top: 0,
-    backgroundColor: 'grey',
   },
   item: {
     flexDirection: 'column',

@@ -22,7 +22,7 @@ const PropertySummary = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    height: 150,
   },
 
   detailsContainer: {
@@ -37,12 +37,12 @@ const styles = StyleSheet.create({
 
   description: {
     fontWeight: 'bold',
-    fontSize: 18,
+    fontSize: 30,
   },
 
   price: {
     fontWeight: 'bold',
-    fontSize: 14,
+    fontSize: 20,
     marginTop: 8,
   },
 
@@ -62,12 +62,15 @@ const styles = StyleSheet.create({
   },
 
   rating: {
-    fontSize: 12,
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 
   starIcon: {
-    fontSize: 16,
+    fontSize: 20,
     marginRight: 4,
+    fontWeight: 'bold',
+    color: 'gold',
   },
 });
 

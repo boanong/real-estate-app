@@ -3,6 +3,7 @@ import { View, Image, TouchableOpacity } from 'react-native';
 import { FontAwesome } from '@expo/vector-icons'; // Import FontAwesome icon library
 import PropertySummary from '../layout/PropertySummary';
 import SupplementInfo from '../layout/SupplementInfo';
+import DescriptionSection from '../layout/DescriptionSection';
 
 const PropertyDetails = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -51,9 +52,12 @@ const PropertyDetails = () => {
         </View>
       </View>
       <PropertySummary />
-      <SupplementInfo />
+      <View >
+        <SupplementInfo />
+      </View>
+      <DescriptionSection />
       {/* Other components */}
-      
+
     </View>
   );
 };
