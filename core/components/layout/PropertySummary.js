@@ -8,14 +8,17 @@ const PropertySummary = () => {
       <View style={styles.detailsContainer}>
         <View style={styles.descriptionContainer}>
           <Text style={styles.description}>Apartment</Text>
-          <Text style={styles.rating}><Ionicons name="star-sharp" style={styles.starIcon} /> 4.5</Text>
+          <Text style={styles.rating}>
+            <Ionicons name="star-sharp" style={styles.starIcon} /> 4.5
+          </Text>
         </View>
         <Text style={styles.price}>$250,000</Text>
         <View style={styles.locationContainer}>
           <Ionicons name="location-sharp" style={styles.locationIcon} />
-          <Text style={styles.location}>New York, USA</Text>
+          <Text style={styles.location}>Younde, Cmr</Text>
         </View>
       </View>
+      <View style={{ borderBottomWidth: 1, borderBottomColor: '#00000030', width: '100%' }} />
     </View>
   );
 };

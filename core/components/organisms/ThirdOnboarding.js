@@ -11,7 +11,7 @@ const ThirdOnboarding = () => {
         source={require('./../../assets/onboarding3.svg')}
         style={styles.image}
       />
-      <Text style={styles.message}>Seamless Experience!</Text>
+      <Text style={styles.message}>Ever Responsive support!</Text>
       <Text style={styles.details}>
         Step into a seamless real estate
         experience with Property Trust. Let's get you started

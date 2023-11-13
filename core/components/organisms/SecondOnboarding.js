@@ -18,7 +18,7 @@ const SecondOnboarding = () => {
         source={require('./../../assets/onboarding2.svg')}
         style={styles.image}
       />
-      <Text style={styles.message}>Seamless Experience!</Text>
+      <Text style={styles.message}>Endless number of properties!</Text>
       <Text style={styles.details}>
         Step into a seamless real estate
         experience with Property Trust. Let's get you started.
@@ -30,7 +30,7 @@ const SecondOnboarding = () => {
       >
         <Text
  
-style={styles.buttonText}>Get Started</Text>
+style={styles.buttonText}>Next</Text>
 
       
 </TouchableOpacity>

@@ -21,7 +21,7 @@ const FirstOnboarding = () => {
         style={styles.button}
         onPress={() => navigation.navigate('SecondOnboarding')}
       >
-        <Text style={styles.buttonText}>Get Started</Text>
+        <Text style={styles.buttonText}>Next</Text>
       </TouchableOpacity>
 
     </View>

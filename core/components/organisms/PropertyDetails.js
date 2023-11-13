@@ -4,6 +4,10 @@ import { FontAwesome } from '@expo/vector-icons'; // Import FontAwesome icon lib
 import PropertySummary from '../layout/PropertySummary';
 import SupplementInfo from '../layout/SupplementInfo';
 import DescriptionSection from '../layout/DescriptionSection';
+import Map from '../layout/Map';
+import BookButton from '../atoms/BookButton';
+import { useNavigation } from '@react-navigation/core';
+
 
 const PropertyDetails = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -56,7 +60,8 @@ const PropertyDetails = () => {
         <SupplementInfo />
       </View>
       <DescriptionSection />
-      {/* Other components */}
+      <Map />
+      <BookButton />
 
     </View>
   );
@@ -65,7 +70,6 @@ const PropertyDetails = () => {
 const styles = {
   container: {
     flex: 1,
-    // Other styles
   },
   imageContainer: {
     height: 300,
