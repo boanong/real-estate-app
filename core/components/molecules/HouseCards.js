@@ -25,7 +25,7 @@ const HouseCards = () => {
           
           <Text style={styles.cost}>$2000</Text>
           <View style={styles.rating}>
-            <Image source={{ uri: 'https://via.placeholder.com/20' }} style={styles.starIcon} />
+            <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/118/118669.png' }} style={styles.starIcon} />
             <Text>4.5</Text>
           </View>
           <Text>Mobile Omnispore</Text>
@@ -36,9 +36,9 @@ const HouseCards = () => {
       <TouchableOpacity style={styles.card} onPress={handlePropertyDetails}>
         <Image source={{ uri: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
-          <Text>$2000</Text>
+          <Text style={styles.cost} >$2000</Text>
           <View style={styles.rating}>
-            <Image source={{ uri: 'https://via.placeholder.com/20' }} style={styles.starIcon} />
+            <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/118/118669.png' }} style={styles.starIcon} />
             <Text>4.5</Text>
           </View>
           <Text>Neighborhood</Text>
@@ -47,9 +47,9 @@ const HouseCards = () => {
       <TouchableOpacity style={styles.card} onPress={handlePropertyDetails}>
         <Image source={{ uri: 'https://images.pexels.com/photos/53610/large-home-residential-house-architecture-53610.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
-          <Text>$2000</Text>
+          <Text style={styles.cost}>$2000</Text>
           <View style={styles.rating}>
-            <Image source={{ uri: 'https://via.placeholder.com/20' }} style={styles.starIcon} />
+            <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/118/118669.png' }} style={styles.starIcon} />
             <Text>4.5</Text>
           </View>
           <Text>Neighborhood</Text>
@@ -58,9 +58,9 @@ const HouseCards = () => {
       <TouchableOpacity style={styles.card} onPress={handlePropertyDetails}>
         <Image source={{ uri: 'https://images.pexels.com/photos/1436190/pexels-photo-1436190.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
-          <Text>$2000</Text>
+          <Text style={styles.cost}>$2000</Text>
           <View style={styles.rating}>
-            <Image source={{ uri: 'https://via.placeholder.com/20' }} style={styles.starIcon} />
+            <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/118/118669.png' }} style={styles.starIcon} />
             <Text>4.5</Text>
           </View>
           <Text>Neighborhood</Text>
@@ -69,9 +69,9 @@ const HouseCards = () => {
       <TouchableOpacity style={styles.card} onPress={handlePropertyDetails}>
         <Image source={{ uri: 'https://images.pexels.com/photos/7031406/pexels-photo-7031406.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
-          <Text>$2000</Text>
+          <Text style={styles.cost}>$2000</Text>
           <View style={styles.rating}>
-            <Image source={{ uri: 'https://via.placeholder.com/20' }} style={styles.starIcon} />
+            <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/118/118669.png' }} style={styles.starIcon} />
             <Text>4.5</Text>
           </View>
           <Text>Neighborhood</Text>
@@ -80,17 +80,16 @@ const HouseCards = () => {
       <TouchableOpacity style={styles.card} onPress={handlePropertyDetails}>
         <Image source={{ uri: 'https://images.pexels.com/photos/1895031/pexels-photo-1895031.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
-          <Text>$2000</Text>
+          <Text style={styles.cost}>$2000</Text>
           <View style={styles.rating}>
-            <Image source={{ uri: 'https://via.placeholder.com/20' }} style={styles.starIcon} />
+            <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/118/118669.png' }} style={styles.starIcon} />
             <Text>4.5</Text>
           </View>
           <Text>Neighborhood</Text>
         </View>
       </TouchableOpacity>
       {/* Repeat the above card structure for the remaining 5 houses */}
-      {/* Use different image URIs for each house */}
-      {/* Use real data for price, rating, and neighborhood */}
+
 
     </View>
   );
@@ -108,10 +107,7 @@ const styles = StyleSheet.create({
     margin: 10,
     borderRadius: 10,
     overflow: 'hidden',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.8,
-    shadowRadius: 2,
+    shadowOffset: { width: 0, height: 1 },
     elevation: 5,
   },
   image: {

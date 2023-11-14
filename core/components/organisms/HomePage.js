@@ -27,7 +27,7 @@ const HomePage = () => {
                     />
                 </TouchableOpacity>
             </View>
-            <HorizontalContainer />
+            {/* <HorizontalContainer /> */}
             <HouseCards />
             <FooterSection />
         </>

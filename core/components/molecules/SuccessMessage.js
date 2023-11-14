@@ -1,34 +1,25 @@
 import React from 'react';
-import { Navigation } from 'react-feather';
-import { View, StyleSheet, Text, TouchableOpacity, Image } from 'react-native';
+import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { useNavigation } from '@react-navigation/core';
 
-
-
-
 const SuccessMessage = () => {
+  const navigation = useNavigation();
 
-    const navigation = useNavigation();
-
-
-    const handleCreateAccount = () => {
-        navigation.navigate ('HomePage');
-    }
-
+  const handleCreateAccount = () => {
+    navigation.navigate('HomePage');
+  };
 
   return (
     <View style={styles.card}>
       <View style={styles.circle}>
-      <Ionicons name="logoCheckmark" style={styles.tick} />
-      </View>
+      <Ionicons name="checkmark" size={30} color="white" />      </View>
       <Text style={styles.h3}>Account successfully created</Text>
       <Text style={styles.p}>
         Your account has been successfully created. Click on Continue below to
         move to proceed.
       </Text>
-      <TouchableOpacity style={styles.button}
-      onPress={handleCreateAccount}>
+      <TouchableOpacity style={styles.button} onPress={handleCreateAccount}>
         <Text style={styles.buttonText}>Continue</Text>
       </TouchableOpacity>
     </View>
@@ -40,19 +31,17 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff',
     borderRadius: 10,
     padding: 20,
+    margin: 'auto',
+    width: '90%',
   },
   circle: {
     width: 50,
     height: 50,
     borderRadius: 25,
-    backgroundColor: '#38b2ac',
+    backgroundColor: 'rgba(40, 107, 229, 1)',
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  tick: {
-    width: 30,
-    height: 30,
-    tintColor: '#ffffff',
+    margin: 'auto',
   },
   h3: {
     fontSize: 20,
@@ -63,10 +52,10 @@ const styles = StyleSheet.create({
   p: {
     fontSize: 16,
     textAlign: 'center',
-    marginTop: 10,
+    marginTop: 0,
   },
   button: {
-    backgroundColor: '#38b2ac',
+    backgroundColor: 'rgba(40, 107, 229, 1)',
     borderRadius: 5,
     padding: 10,
     marginTop: 20,
@@ -74,7 +63,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   buttonText: {
-    color: '#ffffff',
+    color: 'white',
     fontSize: 16,
     fontWeight: 'bold',
   },

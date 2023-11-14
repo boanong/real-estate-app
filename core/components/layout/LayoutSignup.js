@@ -126,13 +126,15 @@ const styles = StyleSheet.create({
   socialButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: 'rgba(40, 107, 229, 1)',
-    padding: 7,
+    backgroundColor: 'white',
+    color: 'black',
+    paddingVertical: 3,
+    paddingHorizontal: 15,
     borderRadius: 10,
   },
   socialButtonText: {
     marginLeft: 10,
-    color: 'white',
+    color: 'black',
     fontWeight: 'bold',
   },
 });

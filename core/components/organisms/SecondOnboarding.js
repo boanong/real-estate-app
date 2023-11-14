@@ -75,7 +75,7 @@ styles = StyleSheet.create({
   button: {
     backgroundColor: 'rgba(40, 107, 229, 1)',
     paddingVertical: 10,
-    paddingHorizontal: 50,
+    paddingHorizontal: 80,
     borderRadius: 50,
     marginTop: 100,
   },
