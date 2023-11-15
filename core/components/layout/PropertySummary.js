@@ -12,7 +12,7 @@ const PropertySummary = () => {
             <Ionicons name="star-sharp" style={styles.starIcon} /> 4.5
           </Text>
         </View>
-        <Text style={styles.price}>$250,000</Text>
+        <Text style={styles.price}>$200/m</Text>
         <View style={styles.locationContainer}>
           <Ionicons name="location-sharp" style={styles.locationIcon} />
           <Text style={styles.location}>Younde, Cmr</Text>

@@ -19,7 +19,7 @@ const CheckoutPage = () => {
         return (
             <View style={styles.modalContainer}>
                 <View style={styles.modalContent}>
-                    <Text style={styles.modalTitle}>Confirm payment of ${450}</Text>
+                    <Text style={styles.modalTitle}>Confirm payment of ${200}</Text>
                     <Text style={styles.modalMessage}>Are you sure you want to checkout of this property?</Text>
                     <TouchableOpacity style={styles.modalButton} onPress={onClose}>
                         <Text style={styles.modalButtonText}>Confirm</Text>

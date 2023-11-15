@@ -23,7 +23,7 @@ const HouseCards = () => {
         <Image source={{ uri: 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
           
-          <Text style={styles.cost}>$2000</Text>
+          <Text style={styles.cost}>$200/m</Text>
           <View style={styles.rating}>
             <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/118/118669.png' }} style={styles.starIcon} />
             <Text>4.5</Text>
@@ -36,7 +36,7 @@ const HouseCards = () => {
       <TouchableOpacity style={styles.card} onPress={handlePropertyDetails}>
         <Image source={{ uri: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
-          <Text style={styles.cost} >$2000</Text>
+          <Text style={styles.cost} >$200/m</Text>
           <View style={styles.rating}>
             <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/118/118669.png' }} style={styles.starIcon} />
             <Text>4.5</Text>
@@ -47,7 +47,7 @@ const HouseCards = () => {
       <TouchableOpacity style={styles.card} onPress={handlePropertyDetails}>
         <Image source={{ uri: 'https://images.pexels.com/photos/53610/large-home-residential-house-architecture-53610.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
-          <Text style={styles.cost}>$2000</Text>
+          <Text style={styles.cost}>$200/m</Text>
           <View style={styles.rating}>
             <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/118/118669.png' }} style={styles.starIcon} />
             <Text>4.5</Text>
@@ -58,7 +58,7 @@ const HouseCards = () => {
       <TouchableOpacity style={styles.card} onPress={handlePropertyDetails}>
         <Image source={{ uri: 'https://images.pexels.com/photos/1436190/pexels-photo-1436190.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
-          <Text style={styles.cost}>$2000</Text>
+          <Text style={styles.cost}>$200/m</Text>
           <View style={styles.rating}>
             <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/118/118669.png' }} style={styles.starIcon} />
             <Text>4.5</Text>
@@ -69,7 +69,7 @@ const HouseCards = () => {
       <TouchableOpacity style={styles.card} onPress={handlePropertyDetails}>
         <Image source={{ uri: 'https://images.pexels.com/photos/7031406/pexels-photo-7031406.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
-          <Text style={styles.cost}>$2000</Text>
+          <Text style={styles.cost}>$200/m</Text>
           <View style={styles.rating}>
             <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/118/118669.png' }} style={styles.starIcon} />
             <Text>4.5</Text>
@@ -80,7 +80,7 @@ const HouseCards = () => {
       <TouchableOpacity style={styles.card} onPress={handlePropertyDetails}>
         <Image source={{ uri: 'https://images.pexels.com/photos/1895031/pexels-photo-1895031.jpeg?auto=compress&cs=tinysrgb&w=600' }} style={styles.image} />
         <View style={styles.details}>
-          <Text style={styles.cost}>$2000</Text>
+          <Text style={styles.cost}>$200/m</Text>
           <View style={styles.rating}>
             <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/118/118669.png' }} style={styles.starIcon} />
             <Text>4.5</Text>
