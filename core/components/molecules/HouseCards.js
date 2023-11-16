@@ -101,14 +101,15 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     justifyContent: 'space-around',
   },
+
   card: {
     width: 160,
     height: 200,
     margin: 10,
     borderRadius: 10,
     overflow: 'hidden',
-    shadowOffset: { width: 0, height: 1 },
     elevation: 5,
+    border: '3px solid white'
   },
   image: {
     width: '100%',
