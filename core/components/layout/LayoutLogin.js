@@ -5,7 +5,6 @@ import SignInPage from '../authentication/SignInPage';
 import { useNavigation } from '@react-navigation/native';
 
 
-// initialize the navigation hook
 
 
 const LayoutLogin = () => {

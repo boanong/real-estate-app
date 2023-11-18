@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Text, Image, StyleSheet, Touchable } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { TouchableOpacity } from 'react-native-web';
-// import React, { useNavigation } from 'react';
 
 
 const HouseCards = () => {
@@ -11,7 +10,6 @@ const HouseCards = () => {
   const navigation = useNavigation();
 
   const handlePropertyDetails = () => {
-    // Navigate to the SuccessMessage page when the button is pressed
     navigation.navigate('PropertyDetails');
   };
 
@@ -109,7 +107,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     overflow: 'hidden',
     elevation: 5,
-    border: '3px solid white'
+    border: '5px solid white'
   },
   image: {
     width: '100%',
