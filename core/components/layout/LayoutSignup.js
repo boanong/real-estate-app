@@ -5,14 +5,12 @@ import SignInPage from '../authentication/SignInPage';
 import { useNavigation } from '@react-navigation/native';
 
 
- // initialize the navigation hook
 
 
  const LayoutSignup = () => {
   const navigation = useNavigation();
 
   const handleCreateAccount = () => {
-    // Navigate to the SuccessMessage page when the button is pressed
     navigation.navigate('SuccessMessage');
   };
 

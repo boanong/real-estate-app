@@ -5,7 +5,6 @@ import HouseCards from '../molecules/HouseCards';
 import FooterSection from './FooterSection';
 
 const handleSearch = (searchQuery) => {
-    // Handle the search query here
 };
 
 const HomePage = () => {

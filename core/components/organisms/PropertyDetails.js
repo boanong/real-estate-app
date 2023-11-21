@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Image, TouchableOpacity } from 'react-native';
-import { FontAwesome } from '@expo/vector-icons'; // Import FontAwesome icon library
+import { FontAwesome } from '@expo/vector-icons'; 
 import PropertySummary from '../layout/PropertySummary';
 import SupplementInfo from '../layout/SupplementInfo';
 import DescriptionSection from '../layout/DescriptionSection';

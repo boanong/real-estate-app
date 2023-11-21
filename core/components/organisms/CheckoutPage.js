@@ -11,7 +11,6 @@ const CheckoutPage = () => {
     const [isModalVisible, setIsModalVisible] = useState(false);
 
     const handleCheckout = () => {
-        // Logic for processing the payment and completing the checkout
         setIsModalVisible(true);
     };
 

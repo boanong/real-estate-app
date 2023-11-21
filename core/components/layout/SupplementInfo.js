@@ -6,27 +6,22 @@ const SupplementInfo = () => {
   return (
     <View style={styles.container}>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-        {/* Apartment icon */}
         <View style={styles.item}>
           <Ionicons name="home" size={24} color="black" />
           <Text style={styles.itemText}>Apartment</Text>
         </View>
-        {/* Rooms icon */}
         <View style={styles.item}>
           <Ionicons name="bed-outline" size={24} color="black" />
           <Text style={styles.itemText}>3 Rooms</Text>
         </View>
-        {/* Toilets icon */}
         <View style={styles.item}>
           <Ionicons name="bath-outline" size={24} color="black" />
           <Text style={styles.itemText}>2 Baths</Text>
         </View>
-        {/* Surface area icon */}
         <View style={styles.item}>
           <Ionicons name="square-outline" size={24} color="black" />
           <Text style={styles.itemText}>40 m²</Text>
         </View>
-        {/* Another icon */}
         <View style={styles.item}>
           <Ionicons name="add-circle-outline" size={24} color="black" />
           <Text style={styles.itemText}>2 Parking</Text>

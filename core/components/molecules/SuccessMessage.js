@@ -7,13 +7,14 @@ const SuccessMessage = () => {
   const navigation = useNavigation();
 
   const handleCreateAccount = () => {
-    navigation.navigate('HomePage');
+    navigation.navigate('Actors');
   };
 
   return (
     <View style={styles.card}>
       <View style={styles.circle}>
-      <Ionicons name="checkmark" size={30} color="white" />      </View>
+        <Ionicons name="checkmark" size={30} color="white" />
+      </View>
       <Text style={styles.h3}>Account successfully created</Text>
       <Text style={styles.p}>
         Your account has been successfully created. Click on Continue below to

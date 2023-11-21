@@ -86,7 +86,6 @@ const HouseCards = () => {
           <Text>Neighborhood</Text>
         </View>
       </TouchableOpacity>
-      {/* Repeat the above card structure for the remaining 5 houses */}
 
 
     </View>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import { Ionicons } from '@expo/vector-icons'; // Changed 'Ionicons' to '{ Ionicons }'
+import { Ionicons } from '@expo/vector-icons';
 
 const FooterSection = () => {
   return (

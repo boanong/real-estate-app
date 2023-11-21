@@ -14,6 +14,7 @@ import SuccessMessage from './core/components/molecules/SuccessMessage';
 import HomePage from './core/components/organisms/HomePage'
 import PropertyDetails from './core/components/organisms/PropertyDetails';
 import CheckoutPage from './core/components/organisms/CheckoutPage';
+import Actors from './core/components/templates/Actors';
 
 
 const Stack = createStackNavigator();
@@ -37,6 +38,7 @@ const App = () => {
         <Stack.Screen name='HomePage' component={HomePage} />
         <Stack.Screen name='PropertyDetails' component={PropertyDetails} />
         <Stack.Screen name='CheckoutPage' component={CheckoutPage} />
+        <Stack.Screen name='Actors' component={Actors} />
       
       </Stack.Navigator>
     </NavigationContainer>
