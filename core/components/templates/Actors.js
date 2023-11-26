@@ -14,15 +14,8 @@ const Actors = () => {
   return (
     <View style={styles.container}>
       <Image source={ActorsImage} style={styles.ActorsImage} />
-      <TouchableOpacity
-        style={[styles.button, { backgroundColor: 'blue', padding: 10, borderRadius: 5 }]}
-        onPress={onPress}
-      >
-        <Text style={styles.buttonText}>Go to Home Page</Text>
-      </TouchableOpacity>
-
+     
       <AccountType />
-      {/* Other components can be added here */}
     </View>
   );
 };
